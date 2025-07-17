@@ -1,0 +1,16 @@
+{
+   "AWSEBDockerrunVersion": "1",
+   "Authentication": {
+      "Bucket": "lks-fakhira-kepri", 
+      "Key": "config.json"
+   },
+   "Image": {
+      "Name": "056665234171.dkr.ecr.us-east-1.amazonaws.com/order:latest"
+   },
+   "Ports": [
+      {
+         "ContainerPort": 8000,
+         "HostPort": 8081
+      }
+   ]
+}
