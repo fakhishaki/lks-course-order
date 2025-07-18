@@ -3,6 +3,7 @@ RUN apk add g++ make py3-pip
 
 ARG NODE_ENV=production
 ARG PORT=8000
+EXPOSE 8000
 
 ENV PORT=${PORT}
 ENV NODE_ENV=${NODE_ENV}
